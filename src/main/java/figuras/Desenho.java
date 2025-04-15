@@ -7,11 +7,8 @@ public class Desenho
 {
 
     private List<Figura> figuras = null;
-
     public Desenho() figuras = new ArrayList<>();
-
     public List<Figura> getFiguras() return figuras;
-
     public void adicionar(Figura figura) figuras.add(figura);
 
     public double getArea() 
