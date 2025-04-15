@@ -1,14 +1,13 @@
 package figuras;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 
-class TestDesenho 
-{
+class TestDesenho {
     
     @Test    
-    void testAdicionar() 
-    {
+    void testAdicionar() {
          //Objeto desenho a ser testado
         Desenho desenho = new Desenho();
         
@@ -24,8 +23,7 @@ class TestDesenho
     
     
     @Test    
-    void testGetArea() 
-    {
+    void testGetArea() {
         
         //Objeto desenho a ser testado
         Desenho desenho = new Desenho();        
